@@ -1,0 +1,46 @@
+.filterpresets-label {
+    padding-right: 1%;
+    color: navy;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.filterpresets-buttons {
+    box-sizing: border-box;
+    margin: 10px 1% 0px 1%;
+    border-bottom: 1px #ccc solid;
+    padding: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    /* width: 100%; */
+}
+
+.filterpresets-button {
+    padding: 0px 10px 0px 0px;
+}
+
+.filterpresets-button-with-remove {
+    display: flex;
+    align-items: center;
+}
+
+.filterpresets-menu {
+    margin-left: auto;
+}
+
+.filterpresets-save-panel {
+    padding: 16px 0;
+}
+
+.filterpresets-panel-footer {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+    justify-content: flex-end;
+}
+
+.filterpresets-remove-panel {
+    padding: 16px 0;
+}

@@ -1,0 +1,219 @@
+/*
+ * The area layout control sits below the preview in the left pane, so that pane has to scroll. Scoped to the
+ * Section Field Editor because the Absolute Section Designer shares designer-left-panel and has no control
+ * beneath its preview.
+ */
+.section-field-editor .designer-left-panel {
+    overflow-y: auto;
+}
+
+.section-area-layout-editor {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section-area-layout-header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.section-area-layout-header h4 {
+    margin: 0;
+}
+
+.section-area-layout-hint {
+    font-size: 12px;
+    color: #605e5c;
+}
+
+.section-area-layout-warning {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: #8a5300;
+    background: #fff4ce;
+    border: 1px solid #f2d999;
+    border-radius: 2px;
+    padding: 6px 8px;
+}
+
+/* Mirrors the preview container's page framing so the schematic reads as the same sheet of paper. */
+.section-area-layout-page {
+    border: 2px solid #0078d4;
+    border-radius: 2px;
+    background: #ffffff;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-area-layout-row {
+    display: flex;
+    align-items: stretch;
+    gap: 8px;
+    padding: 4px;
+    border: 1px dashed transparent;
+    border-radius: 2px;
+    transition: background-color 120ms ease, border-color 120ms ease;
+}
+
+.section-area-layout-row.drop-target {
+    background: #eff6fc;
+    border-color: #0078d4;
+}
+
+.section-area-layout-row.does-not-fit .section-area-layout-area {
+    border-color: #d29200;
+    background: #fff9ee;
+}
+
+.section-area-layout-row-number {
+    flex: 0 0 18px;
+    font-size: 11px;
+    color: #a19f9d;
+    text-align: right;
+    padding-top: 6px;
+}
+
+.section-area-layout-row-track {
+    display: flex;
+    align-items: stretch;
+    flex: 1;
+    min-width: 0;
+    gap: 0;
+}
+
+.section-area-layout-area {
+    flex-basis: 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px;
+    border: 1px solid #c8c6c4;
+    border-radius: 2px;
+    background: #faf9f8;
+    cursor: grab;
+    user-select: none;
+}
+
+.section-area-layout-area:hover {
+    border-color: #0078d4;
+    background: #f3f9fd;
+}
+
+.section-area-layout-area:focus-visible {
+    outline: 2px solid #0078d4;
+    outline-offset: 1px;
+}
+
+.section-area-layout-area.dragging {
+    opacity: 0.4;
+    cursor: grabbing;
+}
+
+.section-area-layout-area-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #201f1e;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.section-area-layout-area-width {
+    font-size: 10px;
+    color: #a19f9d;
+}
+
+/* A miniature of the area's own shape: stacked label/value bars for fields, table cells for a grid. */
+.section-area-layout-glyph {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    pointer-events: none;
+}
+
+.section-area-layout-glyph-line {
+    display: flex;
+    gap: 2px;
+}
+
+.section-area-layout-glyph-cell {
+    flex: 1;
+    height: 4px;
+    border-radius: 1px;
+    background: #c8c6c4;
+}
+
+.section-area-layout-glyph.grid .section-area-layout-glyph-line:first-child .section-area-layout-glyph-cell {
+    background: #287fba;
+}
+
+.section-area-layout-glyph.fields .section-area-layout-glyph-cell:first-child {
+    background: #8a8886;
+}
+
+.section-area-layout-divider {
+    flex: 0 0 9px;
+    margin: 8px 0;
+    cursor: col-resize;
+    background: transparent;
+    position: relative;
+}
+
+.section-area-layout-divider::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 4px;
+    width: 1px;
+    background: #c8c6c4;
+}
+
+.section-area-layout-divider:hover::after {
+    left: 3px;
+    width: 3px;
+    background: #0078d4;
+}
+
+/* Kept out of the way until a drag starts, so the resting control is just the layout itself. */
+.section-area-layout-insert {
+    height: 4px;
+    margin: 0 0 0 26px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.section-area-layout-insert-label {
+    font-size: 10px;
+    color: #0078d4;
+    opacity: 0;
+    white-space: nowrap;
+}
+
+.section-area-layout-insert.available {
+    height: 16px;
+    border: 1px dashed #c8c6c4;
+}
+
+.section-area-layout-insert.active {
+    border-color: #0078d4;
+    background: #eff6fc;
+}
+
+.section-area-layout-insert.active .section-area-layout-insert-label {
+    opacity: 1;
+}

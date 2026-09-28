@@ -1,0 +1,49 @@
+.managelistembedded-content {
+    flex-direction: column;
+    width: 100%;
+    max-height: 94vh;
+    overflow-y: auto;
+}
+
+.managelistembedded-title {
+    color: #777;
+    font-size: x-large;
+    font-weight: 350;
+    margin: 15px 0px 15px 1%;
+    border: 0px;
+    padding: 0px;
+}
+
+.managelistembedded-heading-text {
+    font-size: 15px;
+    color: #777;
+    font-weight: 350;
+    margin: 0px 1% 5px 1%;
+    border-bottom: 1px #ccc solid;
+    padding: 0px 0px 15px 0px;
+}
+
+.managelistembedded-title-divider {
+    margin: 10px 1% 5px 1%;
+}
+
+.managelistembedded-items {
+    overflow-y: auto;
+    height: 60vh;
+}
+
+.managelistembedded-no-list {
+    margin: 10px 0px 0px 15px;
+    font-size: small;
+    color: #777;
+    font-weight: 400;
+}
+
+.managelistembedded-sectiontitle {
+    color: #777;
+    font-size: large;
+    font-weight: 400;
+    margin: 0px;
+    border: 0px;
+    padding: 16px 0px 0px 0px;
+}

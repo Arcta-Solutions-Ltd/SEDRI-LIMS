@@ -1,0 +1,20 @@
+.column-picker-content {
+    padding: 8px 0;
+}
+
+.column-picker-description {
+    margin-bottom: 16px;
+    color: var(--neutralSecondary, #605e5c);
+}
+
+.column-picker-list {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 24px;
+}
+
+.column-picker-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}

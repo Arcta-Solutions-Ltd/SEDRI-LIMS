@@ -1,0 +1,39 @@
+.nav2-menuitem {
+    background-color: var(--navColour);
+    display: flex;
+    height: 50px;
+    font-size: large;
+}
+
+.nav2-submenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav2-selected {
+    width: 5px;
+    background-color: #0078d7;
+}
+
+.nav2-unselected {
+    width: 5px;
+    background-color: var(--navColour);
+}
+
+.nav2-submenuitem-selected {
+    width: 20px;
+    background-color: lightgray;
+}
+
+.nav2-submenuitem-unselected {
+    width: 20px;
+    background-color: var(--navColour);
+}
+
+/* .nav2-menuitem-icon {
+    align-self: center;
+}
+
+.nav2-menuitem-name {
+    align-self: center;
+} */

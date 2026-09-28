@@ -1,0 +1,8 @@
+.printpreview-root {
+    position: relative;
+    min-height: 240px;
+}
+
+.printpreview-loading {
+    width: 100%;
+}

@@ -1,0 +1,38 @@
+.diary-page {
+    flex-direction: column;
+    width: 100%;
+    min-height: 94vh;
+    overflow-y: auto;
+}
+
+.diary-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 30px 8px 30px;
+}
+
+.diary-button {
+    margin-right: 10px;
+}
+
+.diary-titlebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0px 5px 15px;
+}
+
+.diary-title {
+    color: #777;
+    font-size: x-large;
+    font-weight: 350;
+    margin: 0px 0px 10px 10px;
+    border: 0px;
+    padding-left: 0px;
+}
+
+.diary-contents {
+    margin: 30px;
+}
+

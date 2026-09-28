@@ -1,0 +1,124 @@
+.managerecord-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 94vh;
+    overflow-y: auto;
+}
+
+.managerecord-titlebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px 5px 0px;
+}
+
+.managerecord-titlebar-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.managerecord-title {
+    color: #777;
+    font-size: x-large;
+    font-weight: 350;
+    margin: 0px 0px 10px 0px;
+    border: 0px;
+    padding-left: 0px;
+}
+
+/* .managerecord-iconbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} */
+
+.managerecord-topbar-separator {
+    margin: 0px 15px 0px 15px;
+}
+
+.managerecord-content {
+    box-sizing: border-box;
+    padding: 0px 0px 30px 0px;
+    border-radius: 5px;
+    background-color: white;
+    /* height: 69vh;
+    overflow-y: scroll; */
+    /* box-shadow: 2px 2px 5px rgba(33,33,33,.2); */
+}
+
+.managerecord-list-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* height: 94vh; */
+}
+
+.managerecord-sectiontitle {
+    color: #777;
+    font-size: large;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    border: 0px;
+    padding: 16px 0px 0px 30px;
+}
+
+.managerecord-section-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px 50px 0px 0px;
+    border: 0px;
+    padding: 0px 0px 16px 30px;
+}
+
+.managerecord-top-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px 5px 15px;
+}
+
+.managerecord-bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px 0px 30px;
+}
+
+.managerecord-button {
+    margin-right: 10px;
+}
+
+.managerecord-right-icon-buttons {
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.managerecord-right-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Loading overlay for role record view */
+.managerecord-loading-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}

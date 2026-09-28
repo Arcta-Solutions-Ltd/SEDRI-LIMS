@@ -1,0 +1,21 @@
+.rules-editor {
+    padding: 8px 0;
+}
+
+.rules-editor-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 0.95em;
+    margin-bottom: 8px;
+}
+
+.rules-editor-row {
+    align-items: flex-end;
+}
+
+.rules-editor-remove {
+    margin-bottom: 4px;
+}

@@ -1,0 +1,92 @@
+.formattedjsonviewer-contents {
+    flex-direction: column;
+    width: 100%;
+}
+
+.formattedjsonviewer-line {
+    /* display: flex;
+    flex-direction: row; */
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: aquamarine;
+}
+
+/*
+.formattedjsonviewer-label {
+    font-weight: bold;
+    min-width: 200px;
+} */
+
+.formattedjsonviewer-title {
+    font-weight: bold;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    min-width: 200px;
+}
+
+.formattedjsonviewer-title-wide {
+    font-weight: bold;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    min-width: 300px;
+}
+
+/* .formattedjsonviewer-item {
+    min-width: 150px;
+} */
+
+/* Grid column headings must occupy the same box as the cells below them or they line up against the wrong
+   column, so this mirrors .formattedsection-item and only wraps long headings. */
+.formattedsection-label {
+    font-weight: bold;
+    padding-left: 50px;
+    width: 100px;
+    flex-shrink: 0;
+}
+
+.formattedsection-item {
+    /* min-width: 150px; */
+    padding-left: 50px;
+    width: 100px;
+    flex-shrink: 0;
+}
+
+.formattedjsonviewer-colour {
+    background-color: lightyellow;
+}
+
+.formattedjsonviewer-gridrowcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.formattedjsonviewer-gridheadings {
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+
+/* Nested collections and objects belonging to a grid row are indented under it so the row they describe
+   stays readable. Nesting can repeat, so the indent compounds with depth. */
+.formattedjsonviewer-nested {
+    padding-left: 70px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.formattedjsonviewer-nested .formattedjsonviewer-title,
+.formattedjsonviewer-nested .formattedjsonviewer-title-wide {
+    min-width: 180px;
+}
+
+.formattedjsonviewer-nested .formattedjsondetails-label,
+.formattedjsonviewer-nested .formattedjsondetails-label-wide {
+    min-width: 180px;
+}
+
+.formattedjsonviewer-nested .formattedsection-item,
+.formattedjsonviewer-nested .formattedsection-label {
+    padding-left: 20px;
+}

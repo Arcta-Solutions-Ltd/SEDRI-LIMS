@@ -1,0 +1,5 @@
+-- v3.00.01: Admission and request record views — embedded specimen and report regions.
+-- Region and list view configuration is defined in C# factories (AdmissionRecordViewConfig,
+-- RequestRecordViewConfig, AdmissionSpecimenListViewConfig, RequestSpecimenListViewConfig,
+-- admissionreportlist / requestreportlist queries). No new UI events or language keys required.
+-- Existing keys @GenSpe@ and @RepRep@ are reused; viewspecimenrecord and printreport paths are unchanged.

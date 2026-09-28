@@ -1,0 +1,68 @@
+.topbar-menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-width: 0;
+    min-height: 44px;
+    box-sizing: border-box;
+    padding: 0 1%;
+    margin: 0;
+}
+
+.topbar-menu-actions {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.topbar-menu--no-utilities .topbar-menu-actions {
+    flex: 0 1 auto;
+    max-width: 100%;
+}
+
+.topbar-menu-actions--compact .ms-CommandBar {
+    width: auto;
+    max-width: 100%;
+}
+
+.topbar-menu-actions--compact .ms-CommandBar-primaryCommand,
+.topbar-menu-actions--compact .ms-CommandBar-button {
+    flex: 0 0 auto;
+}
+
+.topbar-menu-actions--compact .ms-CommandBar-primaryCommand .ms-Button-flexContainer {
+    justify-content: flex-start;
+}
+
+.topbar-menu-utilities {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    margin-left: auto;
+}
+
+.topbar-menu-utilities .ms-CommandBarButton-root {
+    height: 40px;
+}
+
+.topbar-menu-actions--embedded {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: visible;
+    flex: 0 1 auto;
+    min-height: 40px;
+}
+
+.topbar-menu-actions--embedded .ms-Button--commandBar {
+    height: 40px;
+    flex: 0 0 auto;
+}
+
+.topbar-menu-actions--embedded .ms-Button--commandBar + .ms-Button--commandBar {
+    margin-left: 2px;
+}
+
+.topbar-menu-actions--embedded .ms-Button-flexContainer {
+    justify-content: flex-start;
+}

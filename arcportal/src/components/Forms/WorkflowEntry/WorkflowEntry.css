@@ -1,0 +1,46 @@
+.workflowentry-content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.workflowentry-panel {
+    /* height: 30px; */
+    overflow: hidden;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.workflowentry-bottom {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* .workflowentry-steps {
+    width: 30%;
+} */
+
+.workflowentry-fields {
+    /* border-left: 1px solid lightgray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 86vh;
+    width: 70%;
+}
+
+.workflowentry-fields-wide {
+    /* border-left: 1px solid lightgray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 86vh;
+    width: 100%;
+}
+
+
+

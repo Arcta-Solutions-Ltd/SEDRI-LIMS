@@ -1,0 +1,22 @@
+.exort-formcolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: 15px;
+}
+
+.export-button {
+    align-self: flex-end;
+}
+
+@media (min-width: 768px) { 
+
+    .export-formcolumn {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 350px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

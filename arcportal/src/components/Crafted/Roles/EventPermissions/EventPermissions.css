@@ -1,0 +1,80 @@
+.eventpermissions-items {
+    margin: 25px 0px 25px 15px;
+}
+
+.eventpermissions-view-details {
+    margin-right: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.eventpermissions-view-topic {
+    color: #777;
+    font-size: medium;
+    font-weight: 400;
+    text-decoration-line: underline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    border: 0px;
+    padding: 8px 0px 8px 0px;
+}
+
+.eventpermissions-view-field {
+    margin: 0% 40px 0% 8px;
+    /* border-bottom: 1px #ddd solid; */
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    /* height: 31px; */
+    height: 21px;
+    width: 340px;
+}
+
+.eventpermissions-view-field-wide {
+    margin: 0% 40px 0% 8px;
+    /* border-bottom: 1px #ddd solid; */
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    /* min-height: 31px; */
+    min-height: 21px;
+    /* width: 480px; */
+    width: 1000px;
+}
+
+.eventpermissions-view-itemname {
+    padding: 0%;
+    font-size: smaller;
+    font-weight: bold;
+    color: #666;
+    min-width: 160px;
+}
+
+.eventpermissions-view-itemname-wide {
+    padding: 0%;
+    font-size: smaller;
+    font-weight: bold;
+    color: #666;
+    min-width: 260px;
+}
+
+.eventpermissions-view-itemvalue {
+    font-size: smaller;
+    font-weight: 400;
+    color: #777;
+}
+
+.eventpermissions-data {
+    margin-left: 15px;
+    flex-grow: 4;
+    min-width: 300px;
+}

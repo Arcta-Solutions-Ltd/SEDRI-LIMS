@@ -1,0 +1,42 @@
+.directtestsgrid-content {
+    flex-direction: column;
+    width: 100%;
+    max-height: 94vh;
+    overflow-y: auto;
+}
+
+.directtestsgrid-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 4px 4px;
+}
+
+.directtestsgrid-no-list {
+    margin: 10px 0px 0px 15px;
+    font-size: small;
+    color: #777;
+    font-weight: 400;
+}
+
+.directtestsgrid-list-container {
+    position: relative;
+}
+
+.directtestsgrid-list-refreshing {
+    pointer-events: none;
+}
+
+.directtestsgrid-list-refreshing .ms-DetailsList,
+.directtestsgrid-list-refreshing .directtestsgrid-toolbar {
+    opacity: 0.35;
+}
+
+.directtestsgrid-list-loading {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.65);
+    z-index: 2;
+}

@@ -1,0 +1,65 @@
+.simplecarditem-content {
+    background-color:  rgba(230, 230, 250, 0.6);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    flex: 0 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px;
+    min-width: 250px;
+    height: auto;
+    margin: 8px 1% 8px 1%;
+    padding: 8px 8px 8px 8px;
+}
+
+.simplecarditem-description {
+    font-weight: bold;
+}
+
+.simplecarditem-aligncentre {
+    align-items: center;
+}
+
+.simplecarditem-delete {
+    align-self: flex-end;
+}
+
+.simplecarditem-green {
+    background-color:  rgba(87, 238, 175, 0.6);
+}
+
+/* .simplecarditem-blue {
+    background-color:  blue;
+    color: white;
+}
+ */
+ .simplecarditem-blue {
+    background-color:  white;
+    color: black;
+    border: solid 1px lightgray;
+    box-shadow: none;
+    border-radius: 4px;
+}
+
+.simplecarditem-red {
+    background-color:  rgba(238, 58, 88, 0.6);
+}
+
+
+.simplecarditem-content:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.simplecarditem-selected {
+    background-color:  rgba(230,230,250,1);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    flex: 0 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 200px;
+    margin: 1%;
+    padding: 1%;
+}

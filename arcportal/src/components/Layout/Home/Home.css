@@ -1,0 +1,292 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 94vh;
+}
+
+.home-content {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+}
+
+.home-sectiontitle {
+    color: #777;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    border: 0px;
+    padding: 16px 0px 20px 30px;
+}
+
+.home-sectioncontent {
+    margin: 5px 0px 0px 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-dashboard-toolbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.home-dashboard-toolbar-right {
+    padding-right: 8px;
+}
+
+.home-dashboard-grid-host {
+    position: relative;
+    min-height: 200px;
+}
+
+.home-dashboard-grid {
+    min-height: 400px;
+}
+
+.home-dashboard-grid .react-grid-item > div {
+    height: 100%;
+}
+
+.home-dashboard-graph-title {
+    flex-shrink: 0;
+    padding: 6px 8px 4px 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #323130;
+}
+
+.home-dashboard-hint {
+    font-size: 12px;
+    color: #605e5c;
+    margin: 8px 0 12px 0;
+    line-height: 1.4;
+}
+
+.home-recently-used-kinds {
+    margin-bottom: 12px;
+}
+
+.home-recently-used-kinds-label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #323130;
+}
+
+.home-dashboard-tile {
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.home-dashboard-tile-content {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.home-dashboard-section-heading {
+    flex-shrink: 0;
+    align-self: stretch;
+    width: 100%;
+    box-sizing: border-box;
+    color: #323130;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0;
+    padding: 8px 12px 4px 12px;
+    text-align: center;
+}
+
+.home-dashboard-kpi-inner {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 8px 16px 8px;
+}
+
+.home-dashboard-kpi-value {
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.home-dashboard-kpi-swatch-label {
+    font-weight: 600;
+    font-size: 14px;
+    color: #323130;
+    margin-bottom: 6px;
+}
+
+.home-dashboard-tile-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #f3f2f1;
+    padding: 2px 4px;
+    border-bottom: 1px solid #e0e0e0;
+    min-height: 32px;
+}
+
+.home-dashboard-drag-hint {
+    flex: 1;
+    cursor: grab;
+    min-height: 24px;
+}
+
+.home-dashboard-tile-inner {
+    flex: 1;
+    min-height: 0;
+    /* Inner scroll lives on .home-button-tile-list / .home-recently-used-list; avoid a second scrollbar when content fits. */
+    overflow: hidden;
+    padding: 4px 8px 12px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-dashboard-graph-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+.home-dashboard-graph-canvas {
+    flex: 1;
+    min-height: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-dashboard-graph-canvas .home-dashboard-graph-chart-fill {
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+    position: relative;
+}
+
+.home-dashboard-tile-message {
+    padding: 16px;
+    color: #666;
+}
+
+.home-dashboard-panel .ms-Dropdown {
+    margin-bottom: 12px;
+}
+
+.home-dashboard-panel .ms-TextField {
+    margin-bottom: 12px;
+}
+
+.home-dashboard-filter-panel {
+    background: #fff;
+}
+
+/* Filter row was laid out for search (left) + dropdowns + refresh/clear (right). With no search and no icon buttons, stack and use full width. */
+.home-dashboard-filter-panel .filter-content {
+    margin-top: 8px;
+    background: #fff;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.home-dashboard-filter-panel .filter-search {
+    display: none;
+}
+
+.home-dashboard-filter-panel .filter-dropdowns {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.home-dashboard-filter-panel .filter-item {
+    max-width: 100%;
+    width: 100%;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+.home-dashboard-filter-panel .ms-Dropdown {
+    width: 100%;
+    max-width: 100%;
+}
+
+.home-dashboard-filter-panel .filter-hierarchy-picker .hierarchy-picker-trigger-multiselect {
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.home-dashboard-filter-panel-empty {
+    color: #605e5c;
+    margin: 0;
+}
+
+.home-tat-compliance-inner {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4px 8px 12px 8px;
+    box-sizing: border-box;
+}
+
+.home-tat-compliance-value {
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.home-tat-compliance-sub {
+    font-size: 12px;
+    color: #605e5c;
+    text-align: center;
+    margin-top: 8px;
+    line-height: 1.35;
+    max-width: 100%;
+    padding: 0 6px;
+}
+
+.home-tat-compliance-roll {
+    font-size: 11px;
+    margin-top: 4px;
+}
+
+.home-tat-rag-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.home-tat-rag-swatch {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    flex-shrink: 0;
+    border: 1px solid #d2d0ce;
+}

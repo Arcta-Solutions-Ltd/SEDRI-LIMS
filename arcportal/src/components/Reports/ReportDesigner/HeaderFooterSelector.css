@@ -1,0 +1,55 @@
+.header-footer-selector {
+    padding: 20px;
+}
+
+.selection-section,
+.creation-section {
+    margin-bottom: 30px;
+}
+
+.selection-section h3,
+.creation-section h3 {
+    margin: 0 0 12px 0;
+    color: #323130;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.selection-section p,
+.creation-section p {
+    margin: 0 0 16px 0;
+    color: #605e5c;
+    font-size: 14px;
+}
+
+.section-dropdown {
+    margin-bottom: 20px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #edebe9;
+}
+
+.divider span {
+    padding: 0 20px;
+    color: #605e5c;
+    font-size: 14px;
+    font-weight: 500;
+}
+

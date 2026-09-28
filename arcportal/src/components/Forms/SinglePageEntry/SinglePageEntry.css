@@ -1,0 +1,27 @@
+.singlepageentry-content {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.singlepageentry-fullscreencontent {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.singlepageentry-title {
+    padding: 5px 15px 5px 15px;
+    font-size: 28px;
+}
+
+.singlepageentry-headertext {
+    padding-bottom: 10px;
+}
+
+.singlepageentry-help {
+    font-style: italic;
+    padding-left: 15px;
+    font-size: small;
+    line-height: 70%;
+}

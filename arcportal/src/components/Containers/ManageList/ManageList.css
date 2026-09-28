@@ -1,0 +1,64 @@
+.managelist-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 94vh;
+    /* overflow-y: auto; */
+}
+
+/* .column {
+    display: flex;
+    flex-direction: column;
+    max-height: 95vh;
+} */
+
+.managelist-list-content {
+    display: flex;
+    flex-direction: column;
+    max-height: 94vh;
+}
+
+.managelist-list {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.managelist-home-back {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.managelist-title {
+    color: #777;
+    font-size: x-large;
+    font-weight: 350;
+    margin: 15px 0px 15px 1%;
+    border: 0px;
+    padding: 0px;
+}
+
+.managelist-heading-text {
+    font-size: 15px;
+    color: #777;
+    font-weight: 350;
+    margin: 0px 1% 5px 1%;
+    border-bottom: 1px #ccc solid;
+    padding: 0px 0px 15px 0px;
+}
+
+.managelist-title-divider {
+    margin: 10px 1% 5px 1%;
+}
+
+.managelist-items {
+    overflow-y: auto;
+    height: 60vh;
+}
+
+.managelist-no-list-embedded {
+    margin: 10px 0px 0px 15px;
+    font-size: small;
+    color: #777;
+    font-weight: 400;
+}

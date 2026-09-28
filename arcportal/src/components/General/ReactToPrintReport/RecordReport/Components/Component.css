@@ -1,0 +1,108 @@
+.com-field {
+    border: black 1px solid;
+}
+
+.com-title {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.com-fullwidth{
+    width:100%; 
+}
+
+.com-tablewidth {
+    width:500px; 
+}
+
+.com-section-heading {
+    font-weight: bold;
+}
+
+.com-leftmargin {
+     margin-left: 5px;
+}
+
+.com-smallindent {
+    margin-left: 20px;
+}
+
+.com-mediumindent {
+    margin-left: 60px;
+}
+
+.com-largeindent {
+    margin-left: 120px;
+}
+
+.com-large {
+    font-size: large;
+}
+
+.com-bold {
+    font-weight: bold;
+}
+
+.com-tr {
+    font-weight: bold;
+    text-align: center;
+}
+
+.com-small {
+    width: 130px;
+}
+
+.com-medium {
+    width: 210px;
+}
+
+.com-big {
+    width: 320px;
+}
+
+.com-rightjustify {
+    text-align: right;
+    padding-right: 2px;
+}
+
+.com-leftname {
+    text-align: center;
+    font-weight: bold;
+    vertical-align: top;
+    width: 80px;
+}
+
+.com-tinycol {
+    width: 100px;
+}
+
+.com-smallcol {
+    width: 150px;
+}
+
+.com-mediumcol {
+    width: 250px;
+}
+
+.com-largecol {
+    width: 300px;
+}
+
+.com-extralargecol {
+    width: 400px;
+}
+
+.printtable tr:nth-child(even) {
+    background-color: lightskyblue;
+}
+
+
+
+
+ @media print {
+    h1 {page-break-before: always;}
+}
+
+  /* @media print {
+    footer {page-break-after: always;}
+  } */

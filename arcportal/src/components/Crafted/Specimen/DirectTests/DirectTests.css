@@ -1,0 +1,58 @@
+.directtests-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+/* Preserve outer panel layout while the nested test form panel is open or closing. */
+.directtests-content-panel-open {
+    min-height: 280px;
+}
+
+.directtests-cards {
+    opacity: 1;
+    transition: opacity 0.2s ease;
+    position: relative;
+}
+
+.directtests-cards-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.directtests-cards-refreshing {
+    pointer-events: none;
+}
+
+.directtests-cards-refreshing .simplecard-content,
+.directtests-cards-refreshing .simplecard-content-button-only {
+    opacity: 0.35;
+}
+
+.directtests-list-loading {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.65);
+    z-index: 2;
+}
+
+/*
+ * Hide the outer View/Update panel navigation (Close button) while a nested test
+ * form panel is open. Without this, collapsing card content lets the outer Close
+ * button shift up and flash at the edge during inner panel slide animations.
+ */
+.singlepage-content:has(.directtests-content-panel-open) .singlepage-navigation {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.directtests-top {
+    align-self: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,66 @@
+{
+  "name": "arcportal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/msal-browser": "^4.2.1",
+    "@fluentui/react": "^8.117.7",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^15.0.4",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/react": "^18.3.17",
+    "@types/react-dom": "^18.3.5",
+    "@xyflow/react": "^12.8.4",
+    "axios": "^1.13.1",
+    "chart.js": "^4.4.2",
+    "jspdf": "^3.0.1",
+    "jspdf-autotable": "^5.0.2",
+    "jwt-decode": "^4.0.0",
+    "next-barcode": "^1.5.0",
+    "pdfjs-dist": "^4.9.155",
+    "prop-types": "^15.8.1",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-grid-layout": "^2.2.3",
+    "react-redux": "^9.1.1",
+    "react-scripts": "^5.0.1",
+    "react-to-print": "^2.15.1",
+    "redux": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@redux-devtools/extension": "^3.3.0",
+    "browserlist": "latest",
+    "copy-webpack-plugin": "^12.0.2",
+    "csv-parser": "^3.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "pdf-parse": "^1.1.1",
+    "react-app-rewired": "^2.2.1"
+  },
+  "overrides": {
+    "nth-check": "^2.0.1",
+    "postcss": "^8.4.31"
+  }
+}

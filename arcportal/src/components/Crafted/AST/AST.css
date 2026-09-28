@@ -1,0 +1,724 @@
+.astform-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1% 1% 0px 1%;
+    padding-left: 15px;
+}
+
+.astform-first-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+
+.astform-title {
+    padding: 5px 15px 5px 0px;
+    font-size: 28px;
+}
+
+.astform-headertext {
+    padding: 5px 15px 0px 0px;
+    /* padding-bottom: 20px; */
+    font-size: 14px;
+}
+
+.astform-subtitle {
+    padding: 25px 15px 0px 0px;
+    font-size: 20px;
+}
+
+.astform-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px 10px 0px;
+}
+
+.astform-test-pattern-container {
+    margin: 5px 0px 0px 0px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.astform-test-pattern-title-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.astform-test-pattern-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px 15px 0px 0px;
+    font-size: smaller;
+    font-weight: 400;
+    /* color: #777; */
+}
+
+.astform-manual-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px 20px 0px 0px;
+    font-size: smaller;
+    font-weight: 400;
+}
+
+/* Manual Disk/MIC row while an expert rule with the same antibiotic is applied */
+.astform-manual-row-suppressed-by-expert {
+    opacity: 0.72;
+}
+
+.astform-add-row-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.astform-section-label {
+    font-size:large;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-right: 8px;
+}
+
+.astform-section-label-alt {
+    font-size:large;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 8px;
+}
+
+.astform-test-pattern-title {
+    width: 170px;
+    font-size: small;
+    font-weight: 500;
+    text-align: center;
+}
+
+.astform-test-pattern-title-wide {
+    width: 500px;
+    font-size: small;
+    font-weight: 500;
+    text-align: center;
+}
+
+.astform-test-pattern-title-antibiotic {
+    width: 200px;
+    font-size: small;
+    font-weight: 500;
+    text-align: left;
+}
+
+.astform-manual-title-antibiotic {
+    width: 250px;
+    font-size: small;
+    font-weight: 500;
+    text-align: center;
+}
+
+.astform-manual-title-dosage {
+    width: 100px;
+    font-size: small;
+    font-weight: 500;
+    text-align: center;
+}
+
+.astform-manual-title-guidelines {
+    width: 100px;
+    font-size: small;
+    font-weight: 500;
+    text-align: center;
+}
+
+.astform-manual-title-zone-diameter {
+    width: 170px;
+    font-size: small;
+    font-weight: 500;
+    text-align: center;
+}
+
+.astform-manual-title-measurement {
+    width: 170px;
+    font-size: small;
+    font-weight: 500;
+    text-align: center;
+}
+
+.astform-manual-title-susceptibility {
+    width: 250px;
+    font-size: small;
+    font-weight: 500;
+    text-align: center;
+}
+
+.astform-manual-title-include-in-report {
+    width: 120px;
+    min-width: 120px;
+    flex-shrink: 0;
+    font-size: small;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.astform-expert-rule-title-antibiotic {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    font-size: small;
+    font-weight: 700;
+    text-align: left;
+}
+
+.astform-expert-rule-title-guidelines {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    font-size: small;
+    font-weight: 700;
+    text-align: left;
+}
+
+.astform-expert-rule-title-susceptibility {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    font-size: small;
+    font-weight: 700;
+    text-align: left;
+}
+
+.astform-expert-rule-title-include-in-report {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 120px;
+    min-width: 120px;
+    flex-shrink: 0;
+    font-size: small;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.astform-manual-title-apply-rule {
+    width: 120px;
+    font-size: small;
+    font-weight: 500;
+    text-align: center;
+}
+
+.astform-manual-label-special-consider {
+    width: 160px;
+    font-size: small;
+    font-weight: 500;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.astform-test-pattern-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.astform-special-consider-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.astform-special-consider-padding {
+    width: 490px;
+}
+
+.astform-test-pattern-row-item {
+    width: 170px;
+    /* text-align: center; */
+}
+
+.astform-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.astform-test-pattern-row-item-wide {
+    width: 500px;
+    text-align: center;
+}
+
+.astform-test-pattern-drug {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.astform-manual-drug {
+    width: 250px;
+}
+
+/* Expert rule group header: title + toggle (wider than standard drug column for long rule names) */
+.astform-expert-rule-header-drug {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    min-width: auto;
+    white-space: nowrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    background-color: rgba(242, 242, 247, 0.75);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    border-radius: 5px;
+}
+
+.astform-expert-rule-group-apply {
+    flex-shrink: 0;
+}
+
+/* Toggle only (no label text, no Yes/No captions) next to rule title */
+.astform-expert-rule-group-apply .ms-Toggle .ms-Label {
+    display: none;
+}
+
+/* Rule name is medium weight (not bold) so it does not compete with the bold "Expert Rules" section heading. */
+.astform-expert-rule-title-text {
+    padding: 8px 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Colour swatch shown before the rule name, matching the rule icon and inline trigger icons. */
+.astform-expert-rule-colour-swatch {
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+    border-radius: 3px;
+    flex-shrink: 0;
+}
+
+.astform-manual-dosage {
+    width: 100px;
+}
+
+.astform-manual-guidelines {
+    width: 100px;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.astform-manual-zone-diameter {
+    width: 170px;
+}
+
+.astform-measurement-column {
+    width: 170px;
+    flex-shrink: 0;
+}
+
+/* Align Zone Diameter and MIC text boxes: constrain inner content */
+.astform-measurement-column .singlelinefield-data {
+    max-width: 100%;
+}
+
+.astform-manual-susceptibility {
+    width: 250px;
+    min-width: 250px;
+    flex-shrink: 0;
+}
+
+.astform-manual-susceptibility-inner {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.astform-susceptibility-manual {
+    border-left: 3px solid #CA5010;
+    background-color: rgba(255, 244, 206, 0.35);
+    padding-left: 4px;
+}
+
+.astform-manual-susceptibility-icon {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #CA5010;
+    padding: 0 2px;
+    line-height: 1;
+}
+
+.astform-manual-override-hover {
+    max-width: 320px;
+    font-size: 12px;
+    color: #000000;
+}
+
+.astform-manual-susceptibility-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    flex-shrink: 0;
+}
+
+.astform-manual-susceptibility-trash {
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    color: #605e5c;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.astform-manual-susceptibility-trash:hover {
+    color: #a4262c;
+}
+
+.astform-manual-include-in-report {
+    width: 120px;
+    min-width: 120px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; /* Match Fluent UI form control text size */
+}
+
+/* Align Yes/No toggle with column header; override SingleLineField padding and flex */
+.astform-manual-include-in-report .singlelinefield-item {
+    padding: 5px 0 0 0;
+    justify-content: center;
+}
+
+.astform-manual-include-in-report .singlelinefield-data {
+    flex-grow: 0;
+}
+
+.astform-manual-apply-rule {
+    width: 120px;
+}
+
+.astform-antibiotic-level {
+    min-width: 40px;
+    text-align: center;
+    align-self:center;
+    margin-top: 5px;
+}
+
+.astform-antibiotic-level-item-black, .astform-antibiotic-level-item-blue, .astform-antibiotic-level-item-red, .astform-antibiotic-level-item-green {
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+    color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.astform-antibiotic-level-item-black {
+    background-color: black;
+}
+
+.astform-antibiotic-level-item-blue {
+    background-color: #0078d7;
+}
+
+.astform-antibiotic-level-item-red {
+    background-color: red;
+}
+
+.astform-antibiotic-level-item-green {
+    background-color: green;
+}
+
+.astform-expert-rule-level {
+    min-width: 40px;
+    text-align: center;
+    align-self:center;
+    margin-top: 5px;
+}
+
+.astform-expert-rule-item {
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+    color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slategray;
+}
+
+.astform-test-pattern-drug-code {
+    width: 80px;
+}
+
+.astform-test-pattern-drug-name {
+    width: 120px;
+}
+
+.astform-testpattern-refresh {
+    width: 80px;
+    align-self: end;
+}
+
+.astform-above-save {
+    margin-right: 10px;
+    align-self: end;
+}
+
+.astform-comments {
+    width: calc(100% - 40px);
+}
+
+.astform-date-buffer {
+    margin-top: 5px;
+}
+
+.astform-subtitle-top-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+}
+
+.astform-date-time-label {
+    margin-left: 12em;
+}
+
+.astform-date-time-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    margin-left: 7em;
+    gap: 0.5em;
+}
+
+/* Align date/time SingleLineField items with test pattern row baseline */
+.astform-date-time-group .singlelinefield-item {
+    align-items: flex-end;
+}
+
+/* Date field sits higher than pattern due to Fluent DatePicker structure. Transform moves it down to align. */
+.astform-date-time-group .singlelinefield-item:first-child {
+    transform: translateY(5px);
+}
+
+.astform-date-time-group > *:first-child {
+    min-width: 140px;
+}
+
+/* Time column: min-width alone does not shrink Fluent TextField (large intrinsic width). */
+.astform-date-time-group > *:nth-child(2) {
+    flex: 0 1 auto;
+    min-width: 0;
+    max-width: 110px;
+}
+
+.astform-date-time-group > *:nth-child(2) .singlelinefield-data {
+    flex-grow: 0;
+    min-width: 0;
+    max-width: 100%;
+}
+
+.astform-date-time-group > *:nth-child(2) .ms-TextField {
+    max-width: 100%;
+}
+
+.astform-test-pattern-fields {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.astform-row-highlight {
+    outline: 2px solid slategrey;
+}
+
+.astform-display-only {
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+}
+
+/* Expert rule rows: plain text instead of ComboBox/Dropdown (no chevron, not focusable) */
+.astform-expert-rule-static-text {
+    padding: 0 8px;
+    font-size: 14px;
+    line-height: 20px;
+    word-break: break-word;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.astform-expert-rule-static-muted {
+    opacity: 0.55;
+}
+
+.astform-invisible-spacer {
+    visibility: hidden;
+    min-width: 170px;
+    width: 170px;
+    overflow: hidden;
+}
+
+/* Expert Finding (instrument resistance mechanisms): same horizontal alignment as Disk / MIC sections */
+.astform-expert-finding-section {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Match Fluent IconButton (~32px) after Disk/MIC section labels so titles line up */
+.astform-expert-finding-section .astform-expert-finding-header-spacer {
+    width: 32px;
+    min-width: 32px;
+    flex-shrink: 0;
+}
+
+.astform-resistance-mechanisms-inner {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Match ASTLineTitle: flex row with leading antibiotic-level column + content */
+.astform-expert-finding-table-row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.astform-expert-finding-table-wrap {
+    flex: 1;
+    min-width: 0;
+}
+
+.astform-resistance-mechanisms-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.astform-resistance-mechanisms-table th,
+.astform-resistance-mechanisms-table td {
+    border: 1px solid #d0d0d0;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.astform-resistance-mechanisms-table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+
+/* Inline expert-rule trigger icon next to a Disk/MIC or special-consideration line */
+.astform-manual-drug-with-trigger {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.astform-manual-drug-with-trigger .singlelinefield-item {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.astform-special-consider-label-with-trigger {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+}
+
+.astform-expert-trigger-icon {
+    border-radius: 5px;
+    height: 22px;
+    width: 22px;
+    min-width: 22px;
+    color: whitesmoke;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: help;
+    flex-shrink: 0;
+    background-color: slategray;
+}
+
+.astform-expert-trigger-icon .ms-Icon {
+    font-size: 14px;
+}
+
+/* Keep the inline icon next to the antibiotic but give it breathing room before the dosage/potency field */
+.astform-manual-drug-with-trigger .astform-expert-trigger-icon {
+    margin-right: 10px;
+}
+
+/* Organism name heading (top of page) with optional intrinsic-guidance icon; align icon with the heading text. */
+.astform-organism-heading-row .astform-expert-trigger-icon {
+    margin-top: 15px;
+}
+
+/* Colour-coded hover listing every expert rule a line triggered */
+.astform-expert-trigger-hover {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 360px;
+}
+
+.astform-expert-trigger-hover-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.astform-expert-trigger-hover-swatch {
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+    border-radius: 3px;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.astform-expert-trigger-hover-text {
+    font-size: 13px;
+    line-height: 18px;
+}

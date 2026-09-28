@@ -1,0 +1,39 @@
+.wizardmodal-content {
+    height: 600px; 
+    width: 400px;
+}
+
+.wizardmodal-pivot {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wizardmodal-nextbutton {
+    padding: 5px 15px 10px 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .wizardmodal-2col-content {
+        height: 600px; 
+        width: 800px;
+    }
+
+    .wizardmodal-2col-pivotitems {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    /* .wizardmodal-2col-pivotitems-columns {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 400px;
+    } */
+}

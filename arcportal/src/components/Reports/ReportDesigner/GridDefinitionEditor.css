@@ -1,0 +1,223 @@
+/* Grid Definition Editor Styles */
+.grids-section {
+    margin-bottom: 30px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-header h3 {
+    margin: 0;
+    color: #323130;
+}
+
+.grids-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.grid-editor {
+    border: 1px solid #edebe9;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #faf9f8;
+}
+
+.grid-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.grid-header h4 {
+    margin: 0;
+    color: #323130;
+}
+
+.grid-fields {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+/* Column widths editing */
+.column-widths-section {
+    margin-top: 15px;
+}
+
+.column-widths-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.column-widths-header h5 {
+    margin: 0;
+    color: #323130;
+    font-size: 14px;
+}
+
+/* Visual Column Editor */
+.visual-column-editor {
+    border: 1px solid #edebe9;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: #faf9f8;
+}
+
+.column-visualization {
+    position: relative;
+    height: 60px;
+    border: 2px solid #0078d4;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.column-visual-item {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ffffff;
+    transition: all 0.2s ease;
+}
+
+.column-visual-item:last-child {
+    border-right: none;
+}
+
+.column-visual-item:hover {
+    opacity: 0.8;
+    transform: scale(1.02);
+}
+
+.column-label {
+    font-weight: 600;
+    font-size: 12px;
+    color: #323130;
+    margin-bottom: 2px;
+}
+
+.column-width-display {
+    font-size: 10px;
+    color: #605e5c;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+.page-width-indicator {
+    background-color: #f3f2f1;
+    border: 1px dashed #d2d0ce;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.page-width-label {
+    font-size: 10px;
+    color: #605e5c;
+    text-align: center;
+    padding: 2px 4px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+}
+
+/* Slider Controls */
+.column-sliders {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.column-slider-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.slider-label {
+    min-width: 80px;
+    font-size: 12px;
+    color: #323130;
+    font-weight: 500;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.column-slider {
+    flex: 1;
+    height: 6px;
+    border-radius: 3px;
+    background: #edebe9;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.column-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #0078d4;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.column-slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #0078d4;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.slider-value {
+    min-width: 50px;
+    text-align: right;
+    font-size: 12px;
+    color: #605e5c;
+    font-weight: 500;
+}
+
+.remove-column-btn {
+    margin-left: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .grid-fields {
+        grid-template-columns: 1fr;
+    }
+    
+    .column-slider-item {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

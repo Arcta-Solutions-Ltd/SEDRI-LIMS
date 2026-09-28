@@ -1,0 +1,33 @@
+.barcodeitem-content {
+    display: flex;
+    height: auto;
+}
+
+.barcodeitem-barcode {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    /* max-height: 50px; */
+    z-index: -1;
+}
+
+.barcodeitem-fields {
+    margin: auto;
+}
+
+.barcodeitem-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 0.2cm 0 0.2cm;
+}
+
+.barcodeitem-fieldtitle {
+}
+
+.barcodeitem-linear {
+}
+
+.barcodeitem-qr {
+}

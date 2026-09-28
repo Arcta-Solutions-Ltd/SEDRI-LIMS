@@ -1,0 +1,29 @@
+/* .patientsearchresult-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.patientsearchresult-items {
+    margin-bottom: 3px;
+}
+
+.patientsearchresult-button {
+    width: 400px;
+} */
+
+.patientsearchresult-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+.patientsearchresult-top {
+    align-self: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+

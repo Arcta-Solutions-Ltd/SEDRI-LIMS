@@ -1,0 +1,81 @@
+.sidemenu-content-sidebar {
+    background-color:var(--navColour);
+    height: 90vh;
+}
+
+.expand-menu {
+    box-sizing: 'border-box';
+    padding: 25px;
+}
+
+.collapse-menu {
+    box-sizing: 'border-box';
+    padding: 25px;
+    margin-left: 150px;
+    /* float: right; */
+}
+
+/* Small devices (up to 576px) */
+@media (max-width: 576px) { 
+    .sidemenu-content {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+        overflow: hidden;
+    }
+    .sidemenu-content-icons_only {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+        overflow: hidden;
+    }
+    .sidemenu-icons-selectable {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+        overflow: hidden;
+    }
+    .commands-250 {
+        padding-top: 0 !important;
+    }
+}
+
+/* Small devices (up to 992px) */
+@media (min-width: 577px) and (max-width: 992px) {
+    .sidemenu-content {
+        visibility: hidden;
+        height: 0px;
+        width:0px;
+        overflow: hidden;
+    }
+    .sidemenu-content-icons_only {
+        background-color: var(--navColour);
+        height: calc(100vh - 44px);
+        width: 65px;
+    }
+    .sidemenu-icons-selectable {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+        overflow: hidden;
+    }
+}
+
+/* Large devices (desktops, 993px and up) */
+@media (min-width: 993px) { 
+    .sidemenu-content {
+        background-color: var(--navColour);
+        height: calc(100vh - 44px);
+        width: 200px;
+    }
+    .sidemenu-content-icons_only {
+        height: 0vh;
+        width: 0px;
+        overflow: hidden;
+    }
+    .sidemenu-icons-selectable {
+        background-color: var(--navColour);
+        height: calc(100vh - 44px);
+        width: 65px;
+    }
+}

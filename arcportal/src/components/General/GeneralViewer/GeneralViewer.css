@@ -1,0 +1,49 @@
+.generalviewer-sectioncontent {
+    margin: 5px 0px 0px 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.generalviewer-sectiontitle {
+    color: #777;
+    font-size: large;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    border: 0px;
+    padding: 16px 0px 16px 30px;
+}
+
+.generalviewer-no-section-title {
+    height: 30px;
+}
+
+.generalviewer-subsectioncontent {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+.generalviewer-subsectiontitle {
+    /* color: #888; */
+    color: #777;
+    font-style: italic;
+    font-size: medium;
+    font-weight: 400;
+    /* text-decoration: underline; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px;
+    border: 0px;
+    padding: 12px 0px 12px 45px;
+    height: 25px;
+}
+
+.generalviewer-separator {
+    margin: 0px 50px 0px 50px;
+}

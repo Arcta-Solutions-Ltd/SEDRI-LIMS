@@ -1,0 +1,370 @@
+.specimenview-page {
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 3% 0px 3%;
+    background-color: whitesmoke;
+    /* background-color:  rgba(230, 230, 250, 0.4); */
+    height: 94vh;
+    overflow-y: auto;
+}
+
+.specimenview-content {
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 1% 0px 1%;
+    height: 75vh;
+    /* overflow: hidden; */
+}
+
+.specimenview-titlebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1%;
+}
+
+.specimenview-title {
+    color: #777;
+    font-size: x-large;
+    font-weight: 350;
+    margin: 0px 0px 15px 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.specimenview-subtitle {
+    color: #777;
+    font-size: large;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    border: 0px;
+    padding: 10px 0px 0px 30px;
+}
+
+.specimenview-subtitle-assignments {
+    color: #777;
+    font-size: large;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px 0px 0px 30px;
+}
+
+.specimenview-sectionbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.specimenview-specimen-details-with-header {
+
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(33,33,33,.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    background-color:  rgba(230, 230, 250, 0.4);
+    background-color: white;
+    margin: 5px 20px 15px 0px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.specimenview-specimen-details-with-header-full-width {
+
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(33,33,33,.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    background-color:  rgba(230, 230, 250, 0.4);
+    background-color: white;
+    margin: 5px 0px 15px 0px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.specimenview-specimen-details {
+    margin: 0px 0px 0px 0px;
+    padding: 12px 20px 18px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.specimenview-specimen-details-assignments {
+    margin: 0px 0px 0px 0px;
+    padding: 12px 0px 18px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.specimenview-row-of-details-narrow {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.specimenview-specimen-details-narrow-with-header {
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(33,33,33,.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    background-color:  rgba(230, 230, 250, 0.4);
+    background-color: white;
+    margin: 5px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    /* min-width: 570px; */
+}
+
+.specimenview-specimen-details-narrow {
+    padding: 18px 20px 18px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.specimenview-specimen-details-col {
+    margin-right: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.specimenview-specimen-details-no-results {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0px 30px 0px;
+    font-size: small;
+    font-weight: bold;
+    color: red;
+}
+
+.specimenview-field {
+    margin: 0% 0% 0% 8px;
+    border-bottom: 1px #ddd solid;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 31px;
+    width: 340px;
+}
+
+.specimenview-field-highlight {
+    margin: 0% 0% 0% 8px;
+    border-bottom: 1px #ddd solid;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 31px;
+    width: 340px;
+    background-color: rgba(230, 230, 250, 0.6);
+    /* border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(230, 230, 250, 1); */
+}
+
+.specimenview-field-last {
+    margin: 0% 0% 0% 8px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    min-height: 31px;
+    width: 350px;
+}
+
+.specimenview-field-narrow {
+    margin: 0% 0% 0% 8px;
+    border-bottom: 1px #ddd solid;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    min-height: 31px;
+    width: 240px;
+}
+
+.specimenview-field-narrow-last {
+    margin: 0% 0% 0% 8px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    min-height: 31px;
+    width: 240px;
+}
+
+.specimenview-field-medium {
+    margin: 0% 0% 0% 8px;
+    border-bottom: 1px #ddd solid;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    min-height: 31px;
+    width: 450px;
+}
+
+.specimenview-field-medium-last {
+    margin: 0% 0% 0% 8px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    min-height: 31px;
+    width: 450px;
+}
+
+.specimenview-field-long {
+    margin: 0% 0% 0% 8px;
+    border-bottom: 1px #ddd solid;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    min-height: 31px;
+    width: 700px;
+}
+
+.specimenview-field-long-last {
+    margin: 0% 0% 0% 8px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    min-height: 31px;
+    width: 700px;
+}
+
+.specimenview-itemname {
+    padding: 0%;
+    font-size: smaller;
+    font-weight: bold;
+    color: #666;
+    min-width: 160px;
+}
+
+.specimenview-itemname-short {
+    padding: 0%;
+    font-size: smaller;
+    font-weight: bold;
+    color: #666;
+    min-width: 80px;
+}
+
+.specimenview-itemname-message {
+    padding: 0%;
+    font-size: smaller;
+    font-weight: bold;
+    color: #666;
+    min-width: 90px;
+}
+
+.specimenview-itemvalue {
+    font-size: smaller;
+    font-weight: 400;
+    color: #777;
+}
+
+.specimenview-itemvalue-special {
+    font-size: 14px;
+    font-weight: 500;
+    color: darkblue;
+}
+
+.specimenview-column-title {
+    width: 170px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: smaller;
+    font-weight: bold;
+    color: #666;
+}
+
+.specimenview-column-title-wide {
+    width: 280px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: smaller;
+    font-weight: bold;
+    color: #666;
+}
+
+.specimenview-column-field {
+    border-bottom: 1px #ddd solid;
+    text-align: center;
+    font-size: smaller;
+    font-weight: 400;
+    color: #777;
+    height: 22px;
+}
+
+.specimenview-red {
+    color: red;
+    font-weight: 500;
+}
+
+.specimenview-amber {
+    color: orange;
+    font-weight: 500;
+}
+
+.specimenview-green {
+    color: green;
+    font-weight: 500;
+}
+
+.specimenview-buttons {
+    display: flex;
+    justify-content:  space-between;
+    margin-left: 1%;
+}
+
+.specimenview-right-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.specimenview-button {
+    margin-right: 10px;
+}
+
+.specimenview-dummy-force-margin {
+    margin: 0px 0px 20px 0px;
+}

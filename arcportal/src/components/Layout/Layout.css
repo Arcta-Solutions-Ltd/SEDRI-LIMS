@@ -1,0 +1,26 @@
+/* .layout-main {
+    display: flex;
+}
+
+.layout-menu {
+    flex-basis: 0%;
+    flex-grow: 0;
+    flex-shrink: 100;
+}
+
+.layout-content {
+    flex-grow: 1;
+} */
+
+.layout-main {
+    display: flex;
+}
+
+/*.layout-menu {
+    /* min-width: 20%; 
+} */
+
+.layout-content {
+    flex-grow: 1;
+    min-width: 80%;
+}

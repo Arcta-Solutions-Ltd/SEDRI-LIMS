@@ -1,0 +1,49 @@
+.fieldgrid-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.fieldgrid-row-draggable {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    cursor: grab;
+}
+
+
+.fieldgrid-heading {
+    font-weight: normal;
+    padding-top: 2px;
+}
+
+.fieldgrid-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    min-height: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+}
+
+/* .fieldgrid-row-draggable {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;    
+    cursor: grab;
+    margin: 5px 0;
+} */
+
+
+

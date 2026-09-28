@@ -1,0 +1,31 @@
+.cultureorganismselection-buttons {
+    margin-bottom: 3px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.cultureorganismselection-navigation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cultureorganismselection-labels {
+    color: #0078d7;
+    font-size: small;
+    font-weight: 500;
+    padding: 0px 5px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cultureorganismselection-navbuttons {
+    width: 100%;
+    padding: 0px 20px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cultureorganismselection-navpushdown {
+    height: calc(100vh - 700px);
+}

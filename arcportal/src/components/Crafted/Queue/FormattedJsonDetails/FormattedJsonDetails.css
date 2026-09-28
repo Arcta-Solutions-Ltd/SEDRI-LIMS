@@ -1,0 +1,21 @@
+.formattedjsondetails-line {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+}
+
+.formattedjsondetails-label {
+    font-weight: bold;
+    min-width: 250px;
+}
+
+.formattedjsondetails-label-wide {
+    font-weight: bold;
+    min-width: 350px;
+}
+
+.formattedjsondetails-item {
+    min-width: 150px;
+}

@@ -1,0 +1,53 @@
+.pageorder-editor {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 8px 0;
+}
+
+.pageorder-group {
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    padding: 10px 12px 6px;
+}
+
+.pageorder-group-header {
+    font-weight: 600;
+    font-size: 0.95em;
+    margin-bottom: 4px;
+}
+
+.pageorder-group-help {
+    font-size: 0.85em;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.pageorder-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 36px;
+    padding: 4px 0;
+}
+
+.pageorder-row-movable {
+    cursor: grab;
+}
+
+.pageorder-row-label {
+    flex: 1;
+    padding-right: 12px;
+}
+
+.pageorder-row-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.pageorder-lock {
+    padding: 0 8px;
+}

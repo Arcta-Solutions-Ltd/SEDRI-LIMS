@@ -1,0 +1,43 @@
+.workflowentrybuttons-navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.workflowentrybuttons-labels {
+    color: #0078d7;
+    font-size: small;
+    font-weight: 500;
+    padding: 0px 15px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.workflowentrybuttons-labels-fullscreen {
+    color: #0078d7;
+    font-size: small;
+    font-weight: 500;
+    padding: 0px 15px 5px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.workflowentrybuttons-buttons {
+    padding: 0px 5px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.workflowentrybuttons-buttons-fullscreen {
+    padding: 0px 5px 0px 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.workflowentrybuttons-button {
+    margin: 5px;
+    padding: 5px;
+}
+
+.workflowentrybuttons-invisible {
+    opacity: 0;
+}

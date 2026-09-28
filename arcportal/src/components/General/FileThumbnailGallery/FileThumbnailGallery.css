@@ -1,0 +1,58 @@
+.filethumbnailgallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 8px 0;
+}
+
+.filethumbnailgallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #edebe9;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #faf9f8;
+}
+
+.filethumbnailgallery-item:hover {
+    background: #f3f2f1;
+    border-color: #0078d4;
+}
+
+.filethumbnailgallery-thumb {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border: 1px solid #edebe9;
+}
+
+.filethumbnailgallery-icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #edebe9;
+    font-size: 32px;
+    color: #605e5c;
+}
+
+.filethumbnailgallery-name {
+    margin-top: 6px;
+    font-size: 12px;
+    color: #323130;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.filethumbnailgallery-loading {
+    font-size: 12px;
+    color: #605e5c;
+    padding: 8px 0;
+}

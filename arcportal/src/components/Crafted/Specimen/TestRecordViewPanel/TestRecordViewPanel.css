@@ -1,0 +1,124 @@
+.testrecordview-panel {
+    padding: 20px 24px;
+    max-width: 900px;
+}
+
+.testrecordview-section {
+    margin-bottom: 20px;
+}
+
+.testrecordview-sectiontitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #323130;
+    margin-bottom: 8px;
+}
+
+.testrecordview-fieldcontent {
+    margin-right: 0;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 20px 0 24px;
+}
+
+.testrecordview-field {
+    margin: 5px 20px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    min-height: 22px;
+    width: 340px;
+}
+
+.testrecordview-label {
+    padding-right: 10px;
+    font-size: smaller;
+    font-weight: bold;
+    color: #666;
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.testrecordview-value {
+    font-size: smaller;
+    font-weight: 400;
+    color: #777;
+    inline-size: 160px;
+    overflow-wrap: break-word;
+}
+
+.testrecordview-field.testrecordview-upload {
+    flex: 0 0 100%;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.testrecordview-field.testrecordview-upload .testrecordview-label {
+    margin-bottom: 6px;
+    min-width: unset;
+    max-width: unset;
+}
+
+.testrecordview-field.testrecordview-upload .testrecordview-value {
+    inline-size: unset;
+    width: 100%;
+}
+
+.testrecordview-upload .filethumbnailgallery-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.testrecordview-grid {
+    flex-direction: column;
+    width: 100%;
+}
+
+.testrecordview-grid .testrecordview-label {
+    margin-bottom: 6px;
+}
+
+.testrecordview-grid-table {
+    border: 1px solid #edebe9;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.testrecordview-grid-header {
+    display: flex;
+    flex-direction: row;
+    background: #faf9f8;
+    border-bottom: 1px solid #edebe9;
+}
+
+.testrecordview-grid-row {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #edebe9;
+}
+
+.testrecordview-grid-row:last-child {
+    border-bottom: none;
+}
+
+.testrecordview-grid-cell {
+    padding: 8px 12px;
+    font-size: 12px;
+    min-width: 80px;
+    flex: 1;
+}
+
+.testrecordview-grid-header .testrecordview-grid-cell {
+    font-weight: 600;
+    color: #323130;
+}
+
+.testrecordview-separator {
+    margin: 0 24px;
+}

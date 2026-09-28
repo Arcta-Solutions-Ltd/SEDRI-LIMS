@@ -1,0 +1,19 @@
+.panelbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+.panelbar-item {
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(16, 110, 190);
+    width: 25px;
+    padding: 5px;
+}
+
+.panelbar-breadcrumb {
+    flex-basis: 1400px;
+}
+

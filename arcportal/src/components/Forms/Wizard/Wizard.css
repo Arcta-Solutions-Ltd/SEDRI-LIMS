@@ -1,0 +1,32 @@
+.wizard-content {
+    height: 600px; 
+    width: 400px;
+}
+
+.wizard-pivot {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wizard-nextbutton {
+    padding: 5px 15px 10px 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .wizard-2col-content {
+        height: 600px; 
+        width: 800px;
+    }
+
+    .wizard-2col-pivotitems {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

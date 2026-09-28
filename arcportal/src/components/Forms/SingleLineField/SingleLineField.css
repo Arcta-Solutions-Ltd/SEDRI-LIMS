@@ -1,0 +1,20 @@
+.singlelinefield-item {
+    /* padding: 5px 15px 5px 15px; */
+    padding: 5px 10px 0px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.singlelinefield-data {
+    flex-grow: 4;
+    /* max-width: 340px; */
+}
+
+.singlelinefield-narrow {
+    max-width: 50px
+}
+
+.singlelinefield-medium {
+    max-width: 150px
+}

@@ -1,0 +1,28 @@
+.arcage-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.arcage-fields {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.arcage-field-with-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.arcage-unit-label {
+    font-size: 12px;
+    color: #605e5c;
+}
+
+.arcage-fields .ms-TextField {
+    min-width: 60px;
+}

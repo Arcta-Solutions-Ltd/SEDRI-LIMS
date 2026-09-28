@@ -1,0 +1,89 @@
+.toolbar-header {
+    background: whitesmoke;
+    color: black;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+.toolbar-content {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.toolbar-left {
+    display: flex;
+    align-content: flex-end;
+}
+
+.toolbar-name1 {
+    padding-bottom: 6px;
+    letter-spacing: 2px;
+    display: flex;
+    color: rgb(100, 36, 107);
+    font-size: x-large;
+    font-weight: 800;
+    align-items: flex-end;
+}
+
+.toolbar-name2 {
+    padding-bottom: 6px;
+    margin-left: 50px;
+    display: flex;
+    color: darkslategray;
+    font-size: x-large;
+    font-weight: 600;
+    align-items: flex-end;
+}
+
+.toolbar-right {
+    display: flex;
+    margin-right: 8px;
+}
+
+.toolbar-cursor {
+    cursor: pointer;
+}
+
+.toolbar-disclaimer {
+    color: #a00000;
+    display: flex;
+    align-items: flex-end; /* vertically center text within toolbar height */
+    height: 100%;
+    padding: 0 8px;
+}
+
+.small-screen {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .toolbar-disclaimer.large-screen {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 910px) {
+    .toolbar-disclaimer.large-screen {
+        font-size: small;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .large-screen {
+        display: none;
+    }
+    .small-screen {
+        display: flex;
+        align-self: flex-start;
+        padding: 0;
+    }
+
+    .toolbar-name2 {
+        flex-direction: column;
+        font-size: xx-small;
+        margin-left: 0px;
+        align-self: flex-end;
+    }
+}

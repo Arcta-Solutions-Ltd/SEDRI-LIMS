@@ -1,0 +1,174 @@
+/* Hierarchy picker - reuses visual pattern from HierarchyView */
+.hierarchy-picker-trigger {
+    min-height: 32px;
+}
+
+.hierarchy-picker-trigger-multiselect {
+    border: 1px solid rgb(96, 94, 92);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+.hierarchy-picker-trigger-multiselect:hover {
+    border-color: rgb(50, 49, 48);
+}
+
+.hierarchy-picker-chips-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    align-items: center;
+    padding: 4px 8px;
+    min-height: 24px;
+    cursor: pointer;
+}
+
+.hierarchy-picker-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background-color: rgb(237, 235, 233);
+    border: 1px solid rgb(210, 208, 206);
+    border-radius: 2px;
+    padding: 2px 4px 2px 8px;
+    max-width: 200px;
+}
+
+.hierarchy-picker-chip:hover {
+    background-color: rgb(225, 223, 221);
+}
+
+.hierarchy-picker-chip-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.hierarchy-picker-add-trigger {
+    color: rgb(96, 94, 92);
+    font-size: 14px;
+    padding: 2px 4px;
+}
+
+.hierarchy-picker-add-trigger:hover {
+    color: rgb(50, 49, 48);
+}
+
+.hierarchy-picker-body {
+    min-width: 200px;
+}
+
+.hierarchy-picker-row {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    min-height: 36px;
+}
+
+.hierarchy-picker-row:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.hierarchy-picker-row.hierarchy-node-selected {
+    background-color: rgba(0, 120, 212, 0.08);
+}
+
+.hierarchy-picker-row.hierarchy-node-context {
+    background-color: rgba(0, 120, 212, 0.12);
+    outline: 1px solid rgba(0, 120, 212, 0.35);
+}
+
+.hierarchy-picker-expand-cell {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    padding: 6px 12px;
+    vertical-align: middle;
+    border-bottom: 1px solid #edebe9;
+}
+
+.hierarchy-picker-cell {
+    flex: 1;
+    padding: 8px 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #edebe9;
+    display: flex;
+    align-items: center;
+}
+
+.hierarchy-picker-empty {
+    padding: 24px;
+    color: #605e5c;
+    text-align: center;
+}
+
+.hierarchy-leaf {
+    font-style: normal;
+}
+
+.hierarchy-has-children {
+    font-weight: 500;
+}
+
+.hierarchy-picker-row-not-selectable {
+    cursor: default;
+}
+
+.hierarchy-picker-row-not-selectable:hover {
+    background-color: transparent;
+}
+
+.hierarchy-node-spacer {
+    display: inline-block;
+}
+
+.hierarchy-picker-callout {
+    padding: 8px;
+    min-width: 220px;
+}
+
+.hierarchy-picker-search {
+    margin-bottom: 8px;
+}
+
+.hierarchy-picker-scroll {
+    min-height: 80px;
+}
+
+.hierarchy-picker-actions {
+    margin-top: 12px;
+    padding-top: 8px;
+    border-top: 1px solid #edebe9;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.hierarchy-picker-single-trigger {
+    display: flex;
+    align-items: center;
+    min-height: 32px;
+    border: 1px solid rgb(96, 94, 92);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 0 4px 0 8px;
+}
+
+.hierarchy-picker-single-trigger:hover {
+    border-color: rgb(50, 49, 48);
+}
+
+.hierarchy-picker-single-text {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.hierarchy-picker-placeholder {
+    color: rgb(96, 94, 92);
+}

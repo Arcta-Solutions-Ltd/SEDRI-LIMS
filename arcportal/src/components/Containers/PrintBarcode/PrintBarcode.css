@@ -1,0 +1,25 @@
+.printbarcode-hide {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    visibility: hidden;
+}
+
+.barcode-container {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.barcode-container svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.barcode-wrapper {
+    width: 100%;
+    display: block;
+    visibility: visible !important;
+}

@@ -1,0 +1,25 @@
+.astform-isolate-tests {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    width: calc(100% - 40px);
+}
+
+.astform-isolate-test-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #f3f2f1;
+    gap: 8px;
+}
+
+.astform-isolate-test-completed {
+    background-color: #dff6dd;
+}
+
+.astform-isolate-test-name {
+    font-size: 14px;
+}

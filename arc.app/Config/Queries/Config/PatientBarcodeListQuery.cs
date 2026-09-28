@@ -1,0 +1,12 @@
+﻿using arc.app.Common;
+
+namespace arc.app.Config.Queries
+{
+    internal class PatientBarcodeListQuery : IDefinition
+    {
+        public string Get()
+        {
+            return @"{ 'Query': 'PatientBarcodeList', 'Type': 'Special'}";
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.simplecard-content {
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1%;
+}
+
+.simplecard-content-button-only {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1%;
+}

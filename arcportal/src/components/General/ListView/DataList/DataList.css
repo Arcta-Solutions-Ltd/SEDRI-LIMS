@@ -1,0 +1,33 @@
+.datalist-content {
+    min-width: 80%;
+    margin: 0px 1% 0px 1%;
+}
+
+.datalist-highlight {
+    font-weight: 600;
+    color: #0078d7;
+}
+
+.datalist-menuicon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Menu column header carrying two add actions side by side. */
+.datalist-addheader {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-left: 6px;
+}
+
+/* Compound selectors so the icon colour and sizing win over the Fluent IconButton defaults. */
+.datalist-addheader .datalist-addheader-btn {
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+}
+
+.datalist-addheader .datalist-addheader-btn .datalist-menuicon {
+    margin-left: 0;
+}

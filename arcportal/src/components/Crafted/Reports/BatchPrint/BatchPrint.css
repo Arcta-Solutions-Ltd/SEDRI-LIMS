@@ -1,0 +1,15 @@
+.batchprint-button {
+    width: 400px;
+    margin: 10px;
+    align-items: center;
+}
+
+.batchprint-progress {
+    width: 400px;
+    margin: 10px;
+    align-items: center;
+}
+
+.batchprint-contents {
+    margin-left: 20px;
+}

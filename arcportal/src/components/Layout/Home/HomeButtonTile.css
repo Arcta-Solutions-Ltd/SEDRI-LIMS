@@ -1,0 +1,30 @@
+/* Responsive grid for dashboard Button sections (matches Recently Used tile behavior). */
+.home-button-tile-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(180px, 100%), 1fr));
+    gap: 8px;
+    align-content: start;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex: 1;
+    min-height: 0;
+    min-width: 0;
+}
+
+.home-button-tile-list .homecarditem-field {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-button-tile-list .homecarditem-itemname {
+    min-width: 0;
+    flex: 1;
+    overflow-wrap: break-word;
+}
+
+.home-button-tile-list .homecarditem-itemvalue {
+    flex-shrink: 0;
+}

@@ -1,0 +1,22 @@
+.navicon-content-always-visible {
+    height: 100%;
+    padding: 10px;
+}
+
+/* Small devices (up to 575px) */
+@media (max-width: 575px) { 
+    .navicon-content {
+        height: 100%;
+        padding: 10px;
+    }
+}
+
+/* Small, medium and large devices (576px and up) */
+@media (min-width: 576px) { 
+    .navicon-content {
+        height: 100%;
+        padding: 5px;
+        width: 0%;
+        visibility: hidden;
+    }
+}

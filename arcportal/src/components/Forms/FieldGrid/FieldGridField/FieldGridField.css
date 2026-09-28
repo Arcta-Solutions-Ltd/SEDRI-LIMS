@@ -1,0 +1,54 @@
+.fieldgridfield-content {
+    min-width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.fieldgridfield-narrow {
+    /* min-width: 50px; */
+    width: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.fieldgridfield-smaller {
+    min-width: 65px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.fieldgridfield-small {
+    min-width: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.fieldgridfield-medium {
+    min-width: 150px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.fieldgridfield-wide {
+    min-width: 280px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.fieldgridfield-extrawide {
+    min-width: 400px;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.fieldgridfield-colourswatch {
+    display: inline-block;
+    vertical-align: middle;
+}

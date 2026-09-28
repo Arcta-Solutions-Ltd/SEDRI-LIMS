@@ -1,0 +1,28 @@
+.arcduration-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.arcduration-fields {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.arcduration-field-with-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.arcduration-unit-label {
+    font-size: 12px;
+    color: #605e5c;
+}
+
+.arcduration-fields .ms-TextField {
+    min-width: 60px;
+}

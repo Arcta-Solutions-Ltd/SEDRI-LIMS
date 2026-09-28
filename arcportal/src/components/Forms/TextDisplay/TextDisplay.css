@@ -1,0 +1,10 @@
+.textdisplay-item {
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.textdisplay-data {
+    flex-grow: 4;
+}

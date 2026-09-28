@@ -1,0 +1,57 @@
+.formdefinition-menuposition {
+    margin-left: 20px;
+}
+
+/* Page-level container: groups all form groups under a page */
+.formdefinition-page-block {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    margin-bottom: 24px;
+    padding: 0 0 16px 0;
+    background-color: #fafafa;
+}
+
+/* Page header: top-level section title */
+.formdefinition-page-header {
+    padding: 12px 16px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 6px 6px 0 0;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Form group container: groups header + fields grid */
+.formdefinition-formgroup-block {
+    margin: 12px 16px;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.formdefinition-formgroup-block .formdefinition-formgroupheader {
+    padding: 8px 12px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 0.95em;
+}
+
+.formdefinition-formgroup-block .managerecord-section-table {
+    margin: 0;
+    padding: 8px 12px 12px 12px;
+}
+
+/* Standalone form group header (when not in block - legacy) */
+.formdefinition-formgroupheader {
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.formdefinition-formgroupkey {
+    margin-right: 8px;
+}

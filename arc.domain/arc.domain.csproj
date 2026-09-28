@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AST\**" />
+    <Compile Remove="Configuration\MapConfig\**" />
+    <Compile Remove="SpecimenDomain\**" />
+    <EmbeddedResource Remove="AST\**" />
+    <EmbeddedResource Remove="Configuration\MapConfig\**" />
+    <EmbeddedResource Remove="SpecimenDomain\**" />
+    <None Remove="AST\**" />
+    <None Remove="Configuration\MapConfig\**" />
+    <None Remove="SpecimenDomain\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\arc.common\arc.common.csproj" />
+  </ItemGroup>
+
+</Project>

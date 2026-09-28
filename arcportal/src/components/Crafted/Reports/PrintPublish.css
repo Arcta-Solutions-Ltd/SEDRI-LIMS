@@ -1,0 +1,25 @@
+.printpublish-root {
+    position: relative;
+}
+
+.printpublish-loading {
+    width: 100%;
+}
+
+.printpublish-buttons {
+    margin: 0px 0px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.printpublish-button {
+    width: 200px;
+    margin: 10px;
+}
+
+.printpublish-separator {
+    margin: 10px;
+}

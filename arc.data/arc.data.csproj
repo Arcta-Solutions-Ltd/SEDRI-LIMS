@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="arc.api.testing" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.6" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.6" />
+    <PackageReference Include="Npgsql" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\arc.app\arc.app.csproj" />
+    <ProjectReference Include="..\arc.common\arc.common.csproj" />
+    <ProjectReference Include="..\arc.domain\arc.domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SqlHelpers\" />
+  </ItemGroup>
+
+</Project>

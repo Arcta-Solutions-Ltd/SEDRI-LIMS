@@ -1,0 +1,18 @@
+.iqc-results{
+    display: flex;
+    padding: 0px 15px;
+    flex-wrap: wrap;
+}
+
+.result {
+    margin:10px 0 0 10px;
+}
+
+.organism-title {
+    padding: 15px 15px 5px 15px;
+    font-weight: bold;
+}
+
+.headertext {
+    padding-bottom: 5px;
+}

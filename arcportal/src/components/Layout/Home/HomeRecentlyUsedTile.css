@@ -1,0 +1,54 @@
+.home-recently-used-tile .home-recently-used-list {
+    display: grid;
+    /* min(180px, 100%) keeps a single column from forcing horizontal scroll when the tile is at minimum width */
+    grid-template-columns: repeat(auto-fill, minmax(min(180px, 100%), 1fr));
+    gap: 8px;
+    align-content: start;
+    overflow-x: hidden;
+    overflow-y: auto;
+    flex: 1;
+    min-height: 0;
+    min-width: 0;
+}
+
+.home-recent-card {
+    min-width: 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px 10px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    text-align: left;
+}
+
+.home-recent-card:focus {
+    outline: 2px solid var(--focusBorderColor, #0078d4);
+    outline-offset: 1px;
+}
+
+.home-recent-card--specimen {
+    background: #e8f4ea;
+}
+
+.home-recent-card--patient {
+    background: #e8f0fe;
+}
+
+.home-recent-card--test {
+    background: #fff4e5;
+}
+
+.home-recent-card--culture {
+    background: #f3e8ff;
+}
+
+.home-recent-line {
+    display: block;
+    font-size: 12px;
+    line-height: 1.35;
+    overflow-wrap: break-word;
+}
+
+.home-recent-line--primary {
+    font-weight: 700;
+}

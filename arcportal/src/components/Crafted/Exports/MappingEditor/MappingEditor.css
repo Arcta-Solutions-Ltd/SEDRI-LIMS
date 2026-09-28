@@ -1,0 +1,194 @@
+.mappingeditor-root {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 12px 18px;
+    box-sizing: border-box;
+}
+
+.mappingeditor-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #edebe9;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.mappingeditor-toolbar .ms-Toggle {
+    margin-bottom: 0;
+}
+
+.mappingeditor-body {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    flex: 1 1 auto;
+    min-height: 0;
+}
+
+.mappingeditor-tree-pane {
+    flex: 1 1 50%;
+    min-width: 320px;
+    border: 1px solid #edebe9;
+    border-radius: 4px;
+    padding: 12px;
+    overflow: auto;
+    background-color: #faf9f8;
+}
+
+.mappingeditor-preview-pane {
+    flex: 1 1 50%;
+    min-width: 320px;
+    border: 1px solid #edebe9;
+    border-radius: 4px;
+    padding: 12px;
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+.mappingeditor-preview-pane h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #323130;
+    font-weight: 600;
+}
+
+.mappingeditor-preview-json,
+.mappingeditor-preview-xml {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 12px;
+    margin: 0;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: #323130;
+}
+
+.mappingtree-node {
+    border-left: 2px solid transparent;
+    padding-left: 6px;
+    margin-bottom: 4px;
+}
+
+.mappingtree-node.mappingtree-object {
+    border-left-color: #0078d4;
+}
+
+.mappingtree-node.mappingtree-array {
+    border-left-color: #498205;
+}
+
+.mappingtree-node.mappingtree-attribute {
+    border-left-color: #8a8886;
+}
+
+.mappingtree-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.mappingtree-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.mappingtree-children {
+    margin-left: 18px;
+    margin-top: 4px;
+}
+
+.mappingtree-attribute {
+    color: #323130;
+    font-weight: 500;
+}
+
+.mappingtree-array {
+    color: #498205;
+    font-weight: 600;
+}
+
+.mappingtree-object {
+    color: #0078d4;
+    font-weight: 600;
+}
+
+.mappingtree-target {
+    color: #605e5c;
+    font-size: 12px;
+}
+
+.mappingtree-subtype {
+    color: #605e5c;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.mappingtree-gridhint {
+    margin-left: 18px;
+    color: #605e5c;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.mappingeditor-empty {
+    color: #605e5c;
+    padding: 16px;
+    text-align: center;
+    font-style: italic;
+}
+
+.mappingeditor-import-button {
+    margin-left: auto;
+}
+
+.mappingeditor-unmapped-banner {
+    margin-bottom: 12px;
+}
+
+.mappingtree-unmapped {
+    color: #605e5c;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.mappingtree-node.mappingtree-needsmapping {
+    border-left-color: #0078d4;
+    background-color: #eff6fc;
+    border-radius: 3px;
+}
+
+.mappingeditor-import-intro {
+    color: #323130;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.mappingeditor-import-file {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.mappingeditor-import-filename {
+    color: #605e5c;
+    font-size: 12px;
+    word-break: break-all;
+}
+
+.mappingeditor-panel-footer {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid #edebe9;
+}

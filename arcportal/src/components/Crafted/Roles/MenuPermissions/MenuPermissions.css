@@ -1,0 +1,53 @@
+.menupermissions-content {
+    margin: 0px 0px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.menupermissions-item {
+    flex-basis: 50%;
+}
+
+.menupermissions-view-details {
+    margin-right: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menupermissions-view-field {
+    margin: 0% 40px 0% 8px;
+    /* border-bottom: 1px #ddd solid; */
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    /* height: 31px; */
+    height: 21px;
+    width: 340px;
+}
+
+.menupermissions-view-itemname {
+    padding: 0%;
+    font-size: smaller;
+    font-weight: bold;
+    color: #666;
+    min-width: 260px;
+}
+
+.menupermissions-view-itemvalue {
+    font-size: smaller;
+    font-weight: 400;
+    color: #777;
+}
+
+.menupermissions-data {
+    padding-bottom: 15px;
+    flex-grow: 4;
+    min-width: 300px;
+}

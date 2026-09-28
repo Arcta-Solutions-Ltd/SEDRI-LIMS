@@ -1,0 +1,27 @@
+
+.singlepage-content-wide {
+    border-left: 1px solid lightgray;
+    padding-left: 10px;
+}
+
+.singlepage-navigation {
+    margin: 20px 0px 0px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.singlepage-righthand-buttons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.singlepage-button {
+    padding: 5px 15px 10px 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.singlepage-invisible {
+    opacity: 0;
+}

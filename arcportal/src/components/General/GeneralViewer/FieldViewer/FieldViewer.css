@@ -1,0 +1,96 @@
+.fieldviewer-fieldcontent {
+    margin-right: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0px 20px 0px 50px;
+}
+
+.fieldviewer-field {
+    margin: 5px 20px 0px 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    height: auto;
+    width: 340px;
+    min-width: 0;
+}
+
+.fieldviewer-itemname {
+    padding-right: 10px;
+    font-size: smaller;
+    font-weight: bold;
+    color: #666;
+    min-width: 180px;
+    max-width: 180px;
+    flex-shrink: 0;
+}
+
+.fieldviewer-itemvalue {
+    font-size: smaller;
+    font-weight: 400;
+    color: #777;
+    flex: 1;
+    min-width: 0;
+    inline-size: 160px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.fieldviewer-field.fieldviewer-fullwidth {
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.fieldviewer-field.fieldviewer-fullwidth .fieldviewer-itemvalue,
+.fieldviewer-field.fieldviewer-fullwidth .fieldviewer-itemvalue-highlight {
+    inline-size: unset;
+}
+
+.fieldviewer-field.fieldviewer-upload {
+    flex: 0 0 100%;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.fieldviewer-field.fieldviewer-upload .fieldviewer-itemname {
+    margin-bottom: 6px;
+}
+
+.fieldviewer-field.fieldviewer-upload .fieldviewer-itemvalue.fieldviewer-upload-value {
+    inline-size: unset;
+    width: 100%;
+}
+
+.fieldviewer-field.fieldviewer-upload .fieldviewer-upload-value .filethumbnailgallery-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fieldviewer-itemvalue-highlight {
+    font-size: smaller;
+    font-weight: 600;
+    color: #0078d7;
+    flex: 1;
+    min-width: 0;
+    inline-size: 160px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.fieldviewer-separator {
+    margin: 0px 50px 0px 50px;
+}
+
+@media (max-width: 768px) {
+    .fieldviewer-field {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+}

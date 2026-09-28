@@ -1,0 +1,15 @@
+.fieldgrid-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.fieldgrid-row-draggable {
+    cursor: grab;
+}
+
+.fieldgrid-row-draggable:active {
+    cursor: grabbing;
+}

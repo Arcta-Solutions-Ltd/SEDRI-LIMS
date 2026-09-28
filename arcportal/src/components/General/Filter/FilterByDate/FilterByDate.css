@@ -1,0 +1,17 @@
+.filterbydate-child {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.filterbydate-text {
+    font-size: small;
+    font-family: 'Segoe UI';
+    font-weight: 200px;
+}
+
+.filterbydate-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+}

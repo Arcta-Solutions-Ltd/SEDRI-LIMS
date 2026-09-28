@@ -1,0 +1,23 @@
+.graph-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.graph-title {
+    padding-top: 80px;
+}
+
+.graph-message {
+    padding-top: 20px;
+}
+
+.graph-graph {
+    position: relative;
+    aspect-ratio: 2/1;
+    overflow: hidden;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

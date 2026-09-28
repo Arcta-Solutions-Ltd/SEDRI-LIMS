@@ -1,0 +1,47 @@
+﻿using Newtonsoft.Json;
+using System;
+
+namespace arc.common.Utils
+{
+    public class JsonBooleanConverter : JsonConverter
+    {
+        public override bool CanWrite { get { return false; } }
+
+        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+        {
+            switch (value)
+            {
+                case true:
+                    writer.WriteRawValue("Yes");
+                    break;
+                case false:
+                    writer.WriteRawValue("No");
+                    break;
+
+            }
+        }
+
+        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+        {
+            var value = reader.Value.ToString().ToLower().Trim();
+            switch (value)
+            {
+                case "true":
+                case "yes":
+                case "y":
+                case "1":
+                    return true;
+            }
+            return false;
+        }
+
+        public override bool CanConvert(Type objectType)
+        {
+            if (objectType == typeof(Boolean))
+            {
+                return true;
+            }
+            return false;
+        }
+    }
+}

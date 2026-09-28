@@ -1,0 +1,159 @@
+.hierarchy-view {
+    min-height: 200px;
+    overflow-x: auto;
+}
+
+.hierarchy-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Match Fluent UI DetailsList DetailsHeader - theme colors applied via inline style in HierarchyView.js */
+.hierarchy-header-row th {
+    text-align: left;
+    padding: 0 8px 0 12px;
+    height: 42px;
+    line-height: 42px;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hierarchy-header-expand-cell {
+    width: 40px;
+    min-width: 40px;
+    padding: 0 8px 0 12px;
+}
+
+.hierarchy-header-cell {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hierarchy-node-row {
+    cursor: pointer;
+    user-select: none;
+}
+
+.hierarchy-node-row:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.hierarchy-node-selected {
+    background-color: rgba(0, 120, 212, 0.08);
+}
+
+/* Depth-based styling: left border and background show parent vs child at any depth */
+tr.hierarchy-depth-0 .hierarchy-node-expand-cell {
+    border-left: 4px solid #0078d4;
+}
+
+tr.hierarchy-depth-1 .hierarchy-node-expand-cell {
+    border-left: 4px solid #106ebe;
+}
+
+tr.hierarchy-depth-1 {
+    background-color: rgba(0, 120, 212, 0.02);
+}
+
+tr.hierarchy-depth-2 .hierarchy-node-expand-cell {
+    border-left: 4px solid #005a9e;
+}
+
+tr.hierarchy-depth-2 {
+    background-color: rgba(0, 120, 212, 0.04);
+}
+
+tr.hierarchy-depth-3 .hierarchy-node-expand-cell {
+    border-left: 4px solid #004578;
+}
+
+tr.hierarchy-depth-3 {
+    background-color: rgba(0, 120, 212, 0.06);
+}
+
+tr.hierarchy-depth-4 .hierarchy-node-expand-cell,
+tr.hierarchy-depth-5 .hierarchy-node-expand-cell,
+tr.hierarchy-depth-6 .hierarchy-node-expand-cell,
+tr.hierarchy-depth-7 .hierarchy-node-expand-cell,
+tr.hierarchy-depth-8 .hierarchy-node-expand-cell,
+tr.hierarchy-depth-9 .hierarchy-node-expand-cell {
+    border-left: 4px solid #003d66;
+}
+
+tr.hierarchy-depth-4,
+tr.hierarchy-depth-5,
+tr.hierarchy-depth-6,
+tr.hierarchy-depth-7,
+tr.hierarchy-depth-8,
+tr.hierarchy-depth-9 {
+    background-color: rgba(0, 120, 212, 0.08);
+}
+
+.hierarchy-leaf {
+    font-style: normal;
+}
+
+.hierarchy-has-children {
+    font-weight: 500;
+}
+
+.hierarchy-node-expand-cell {
+    padding: 6px 12px;
+    vertical-align: middle;
+    border-bottom: 1px solid #edebe9;
+}
+
+.hierarchy-node-cell {
+    padding: 8px 12px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #edebe9;
+}
+
+.hierarchy-node-spacer {
+    display: inline-block;
+}
+
+.hierarchy-empty-cell {
+    padding: 24px;
+    color: #605e5c;
+    text-align: center;
+}
+
+.hierarchy-node-menu-cell {
+    white-space: nowrap;
+    overflow: visible;
+}
+
+.hierarchy-menu-buttons {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.hierarchy-menu-icon-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #106ebe;
+}
+
+.hierarchy-menu-icon-button:hover {
+    background: rgba(0, 0, 0, 0.06);
+    color: #005a9e;
+}
+
+.hierarchy-menu-icon-button .ms-Icon,
+.hierarchy-menu-icon-button [class^="ms-Icon"] {
+    font-size: 16px;
+    display: inline-block;
+}
